@@ -1,8 +1,11 @@
-import React from 'react'
+/* import React from 'react' */
 
-const ProfileImage = () => {
+const ProfileImage = (props) => {
+  const {image} = props;
   return (
-    <div>ProfileImage</div>
+    <div>
+      <img src={image} className="profile" alt="profileImage"></img>
+    </div>
   )
 }
 
