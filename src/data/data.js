@@ -1,4 +1,4 @@
-const tweetsArray = [
+export const tweetsArray = [
   {
     user: {
       name: "Thoughts of Dog®",
@@ -31,4 +31,3 @@ const tweetsArray = [
   },
 ];
 
-export default tweetsArray;
