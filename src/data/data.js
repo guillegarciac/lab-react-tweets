@@ -1,5 +1,6 @@
 export const tweetsArray = [
   {
+    _id: "23452345",
     user: {
       name: "Thoughts of Dog®",
       image: "https://i.imgur.com/b0EdHVV.jpg",
@@ -10,6 +11,7 @@ export const tweetsArray = [
       "the human likes to say. that i live here rent free. but i would argue. this housing accommodation. is my payment. for a lifetime of love. and excellent company",
   },
   {
+    _id: "23452346",
     user: {
       name: "Guille Garcia",
       image: "https://lh3.googleusercontent.com/a/AEdFTp7UdE5Dw5u0aCiJFsEUr1LlxT6WWmWwIFqeMmkO=s96-c",
@@ -20,6 +22,7 @@ export const tweetsArray = [
       "sometimes. the human presses their noggin against mine. to figure out what i’m thinking. so i just think really hard. about how much i love them. and hope they figure it out",
   },
   {
+    _id: "23452347",
     user: {
       name: "Thoughts of Dog®",
       image: "https://i.imgur.com/b0EdHVV.jpg",
