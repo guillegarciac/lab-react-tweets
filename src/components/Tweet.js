@@ -2,6 +2,7 @@ import React from 'react';
 import ProfileImage from '../components/ProfileImage';
 import User from '../components/User';
 import Timestamp from '../components/Timestamp';
+import Message from '../components/Message';
 
 function Tweet(props) {
   const {tweet} = props; /* the tweet constant equals the props of the each tweetsArray[i] referenced in App.js*/
@@ -17,11 +18,7 @@ function Tweet(props) {
           <User userData={tweet.user}/>
           <Timestamp time={tweet.timestamp}/>
         </div>
-
-        <p className="message">
-        {tweet.message}
-        </p>
-
+        <Message message={tweet.message}/>
         <div className="actions">
           {/* Font Awesome icons */}
           <i className="far fa-comment"></i>
