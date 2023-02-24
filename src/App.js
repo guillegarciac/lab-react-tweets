@@ -37,7 +37,7 @@ const tweetsArray = [
 const App = () => {
   return (
     <div className="App">
-      <Tweet tweet={ tweetsArray[0] }/>
+      <Tweet tweet={ tweetsArray[0] }/> {/* tweet = the object of the tweetsArray[i] and its props will be accessed in Tweet.js component*/}
       <Tweet tweet={ tweetsArray[1] }/>
       <Tweet tweet={ tweetsArray[2] }/>
     </div>
