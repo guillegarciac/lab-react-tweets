@@ -3,6 +3,7 @@ import ProfileImage from '../components/ProfileImage';
 import User from '../components/User';
 import Timestamp from '../components/Timestamp';
 import Message from '../components/Message';
+import Actions from '../components/Actions'
 
 function Tweet(props) {
   const {tweet} = props; /* the tweet constant equals the props of the each tweetsArray[i] referenced in App.js*/
@@ -19,13 +20,7 @@ function Tweet(props) {
           <Timestamp time={tweet.timestamp}/>
         </div>
         <Message message={tweet.message}/>
-        <div className="actions">
-          {/* Font Awesome icons */}
-          <i className="far fa-comment"></i>
-          <i className="fas fa-retweet"></i>
-          <i className="far fa-heart"></i>
-          <i className="fas fa-share"></i>
-        </div>
+        <Actions />
       </div>
 
       <i className="fas fa-ellipsis-h"></i>
