@@ -11,9 +11,9 @@ export const tweetsArray = [
   },
   {
     user: {
-      name: "Thoughts of Dog®",
-      image: "https://i.imgur.com/b0EdHVV.jpg",
-      handle: "dog_feelings",
+      name: "Guille Garcia",
+      image: "https://lh3.googleusercontent.com/a/AEdFTp7UdE5Dw5u0aCiJFsEUr1LlxT6WWmWwIFqeMmkO=s96-c",
+      handle: "guillegarciac",
     },
     timestamp: "2h ago",
     message:
