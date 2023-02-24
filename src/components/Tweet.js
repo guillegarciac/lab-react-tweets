@@ -1,5 +1,7 @@
+import React from 'react';
 import ProfileImage from '../components/ProfileImage';
 import User from '../components/User';
+import Timestamp from '../components/Timestamp';
 
 function Tweet(props) {
   const {tweet} = props; /* the tweet constant equals the props of the each tweetsArray[i] referenced in App.js*/
@@ -13,7 +15,7 @@ function Tweet(props) {
       <div className="body">
         <div className="top">
           <User userData={tweet.user}/>
-          <span className="timestamp">{tweet.timestamp}</span>
+          <Timestamp time={tweet.timestamp}/>
         </div>
 
         <p className="message">

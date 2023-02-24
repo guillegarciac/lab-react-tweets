@@ -1,4 +1,4 @@
-/* import React from 'react' */
+import React from 'react';
 
 const ProfileImage = (props) => {
   const {image} = props; /* the image constant equals the props of the each tweet referenced in Tweet.js*/

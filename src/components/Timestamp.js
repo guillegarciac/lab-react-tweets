@@ -1,8 +1,9 @@
-/* import React from 'react' */
+import React from 'react'
 
-const Timestamp = () => {
+const Timestamp = (props) => {
+  const {time} = props;
   return (
-    <div>Timestamp</div>
+    <span className="timestamp">{time}</span>
   )
 }
 
