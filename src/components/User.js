@@ -1,8 +1,12 @@
 import React from 'react'
 
-const User = () => {
+const User = (props) => {
+  const {userData} = props;
   return (
-    <div>User</div>
+    <span className="user">
+      <span className="name">{userData.name}</span>
+      <span className="handle">{userData.handle}</span>
+    </span>
   )
 }
 

@@ -1,4 +1,5 @@
 import ProfileImage from '../components/ProfileImage';
+import User from '../components/User';
 
 function Tweet(props) {
   const {tweet} = props; /* the tweet constant equals the props of the each tweetsArray[i] referenced in App.js*/
@@ -7,11 +8,7 @@ function Tweet(props) {
       <ProfileImage image={tweet.user.image}/> {/* image = the tweet.user.image and its props are accessed in ProfileImage.js component*/}
       <div className="body">
         <div className="top">
-          <span className="user">
-            <span className="name">{tweet.user.name}</span>
-            <span className="handle">{tweet.user.handle}</span>
-          </span>
-
+          <User userData={tweet.user}/>
           <span className="timestamp">{tweet.timestamp}</span>
         </div>
 
